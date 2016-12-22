@@ -1,4 +1,3 @@
-
 const mainExport = {
   itworks: function () {
     return true
