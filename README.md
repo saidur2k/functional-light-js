@@ -1,6 +1,6 @@
 # functional-light-js
 
-This is my boiler plate app
+This is my experiments in functional js
 
 [![Build Status][build-badge]][build]
 [![Code Coverage][coverage-badge]][coverage]
