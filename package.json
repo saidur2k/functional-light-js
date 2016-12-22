@@ -4,9 +4,7 @@
   "description": "My functional-light-app tests",
   "main": "dist/index.js",
   "scripts": {
-    "commit": "git add . && git-cz -a",
-    "prepush" : "npm run commit && npm run validate",
-    "push" : "git push",
+    "commit": "npm run validate && git add . && git-cz -a",
     "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
