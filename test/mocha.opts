@@ -1,2 +1,1 @@
-src/index.test.js
-src/01_map.test.js
+src/*.test.js

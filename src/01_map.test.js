@@ -1,6 +1,6 @@
 import {expect} from 'chai'
 
-describe('map', () => {
+describe('transform using map', () => {
   it('doubles', () => {
     expect(doubleIt(2)).to.be.equal(4)
   })
@@ -10,6 +10,4 @@ describe('map', () => {
   })
 })
 
-function doubleIt (v) {
-  return v * 2
-}
+var doubleIt = (v) => v * 2
