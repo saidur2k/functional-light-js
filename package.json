@@ -1,7 +1,7 @@
 {
-  "name": "my-boiler-plate-app",
+  "name": "functional-light-app",
   "version": "1.1.0",
-  "description": "My boiler plate app",
+  "description": "My functional-light-app tests",
   "main": "dist/index.js",
   "scripts": {
     "commit": "git add . && git-cz -a",
@@ -75,8 +75,12 @@
       "lcov"
     ],
     "include": [
-      "src"
+      "src/**/*.js"
     ],
+    "lines": 99,
+    "statements": 99,
+    "functions": 99,
+    "branches": 99,
     "sourceMap": false,
     "instrument": false,
     "require": [
